@@ -130,4 +130,9 @@ public class GameManager : MonoBehaviour
         score += val;
         PlayerPrefs.SetInt("score", score);
     }
+
+    public static void Quit()
+    {
+        Application.Quit();
+    }
 }
